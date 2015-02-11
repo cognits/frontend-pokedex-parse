@@ -16,7 +16,7 @@ sudo npm install
 ```{shell}
 sudo bower install
 ```
-5. When you clone this repository and you install bower in your computer type
+5. When you clone this repository and you already install bower type
 ```{shell}
 bower update
 ```
