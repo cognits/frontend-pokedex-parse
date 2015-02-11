@@ -6,6 +6,7 @@ The applications ID and Key that you must use are located in [parse.txt](parse.t
 
 ## Prepare project
 To get up and running, you must:
+
 1. Fork the project
 2. clone it locally
 3. install npm modules
