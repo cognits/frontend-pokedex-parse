@@ -1,0 +1,137 @@
+
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		<div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a>Home</a></li>
+        		<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="images/pokemon_logo.png" class = "img-pokemon"></a>
+							<ul class="dropdown-menu" role="menu">
+								
+								<li><a href="#/FirstGeneration">First Generation</a></li>
+								<li class="divider"></li>
+								<li><a href="#/SecondGeneration">Second Generation</a></li>
+								<li class="divider"></li>
+								<li><a href="#/ThirdGeneration">Third Generation</a></li>
+								<li class="divider"></li>
+								<li><a href="#/FourthGeneration">Fouth Generation</a></li>
+								<li class="divider"></li>
+								<li><a  href="#/FourthGeneration">Fourth Generation</a></li>
+								<li class="divider"></li>
+								<li><a  href="#/FifthGeneration">Fifth Generation</a></li>
+								<li class="divider"></li>
+								<li><a href="#/SixthGeneration">Sixth Generation</a></li>
+								<li class="divider"></li>
+								<li><a>Lest Comments</a></li>
+								
+
+							</ul>
+						</li>
+						<li><a href="#/" ng-click="logOut(user)">Log out</a></li>
+        		<li><a></a></li>
+					<form class="navbar-form navbar-right" role="search">
+					<div class="form-group">
+						<input  type="text" class="form-control" placeholder="Search Global"></input>
+					</div>
+
+					</form>
+			</ul>
+
+		</div><!-- /.navbar-collapse -->
+		 </div>
+	</div><!-- /.container-fluid -->
+	
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+						
+        		<li><a>Welcome {{currentUser.get('username')}}</a></li>
+					<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">User <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								
+								
+								<li class="divider"></li>
+								<li><a>less Views</a></li>
+								<li class="divider"></li>
+								<li><a>alphabetical a-z</a></li>
+								<li class="divider"></li>
+								<li><a>alphabetical z-a</a></li>
+								<li class="divider"></li>
+								<li><a>Most Comments</a></li>
+								<li class="divider"></li>
+								<li><a href="#/" ng-click="logOut(user)">Log out</a></li>
+
+
+							</ul>
+						</li>
+			</ul>
+
+		</div><!-- /.navbar-collapse -->
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+
+</nav>
+
+
+<div class="container">
+
+<!--efecto parallax-->
+	<ul id="navParallax">
+		<li><a href="#primeraGeneracion" title="Next Section"><img src="paralax/poke1.png" width="30" alt="Link" /></a></li>
+	    <li><a href="#segundaGeneracion" title="Next Section"><img src="paralax/poke2.png" width="30" alt="Link" /></a></li>
+	    <li><a href="#terceraGeneracion" title="Next Section"><img src="paralax/poke3.png" width="30" alt="Link" /></a></li>
+	    <li><a href="#cuartaGeneracion" title="Next Section"><img src="paralax/poke4.png" width="30" alt="Link" /></a></li>
+	    <li><a href="#quintaGeneracion" title="Next Section"><img src="paralax/poke5.png" width="30" alt="Link" /></a></li>
+	    <li><a href="#sextaGeneracion" title="Next Section"><img src="paralax/poke6.png" width="30" alt="Link" /></a></li>
+	</ul>
+	
+	<div id="primeraGeneracion" class="img-responsive">
+		<div class="bg4 img-responsive"></div>
+
+	    
+	</div> <!--#primeraGeneracion-->
+	
+	<div id="segundaGeneracion" class="img-responsive">
+		<div class="bg img-responsive"></div>
+
+
+	    
+	    
+	</div> <!--#segundaGeneracion-->
+	
+	<div id="terceraGeneracion" class="img-responsive">
+		<div class="bg2 img-responsive"></div>
+	    	
+	  
+	</div> <!--#terceraGeneracion-->
+	
+	<div id="cuartaGeneracion" >
+		<div class="bg3 img-responsive"></div>
+		    
+	    
+	</div> <!--#cuartaGeneracion-->
+		<div id="quintaGeneracion">
+		<div class="bg5 img-responsive"></div>
+		    
+	    
+	</div> <!--#quintaGeneracion-->
+		<div id="sextaGeneracion">
+		<div class="bg6 img-responsive"></div>
+		    
+	    
+	</div> <!--#cuartaGeneracion-->
+</div>
+
+
+
+
