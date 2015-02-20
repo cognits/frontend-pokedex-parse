@@ -2,11 +2,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-body{
-	margin: 0;
-	min-width: 980px;
-	padding: 0;
-}
 #navParallax{
 	list-style: none;
 	position: fixed;
@@ -20,10 +15,10 @@ body{
 
 
 #primeraGeneracion{
-	background: url(../paralax/gen1_evo.png) 50% 0 no-repeat fixed;
-	color: white;
-	height: 600px;
-	margin: 0 auto;
+	background: url(../paralax/gen1_evo.png) 50% 0 no-repeat fixed; /* image position and do not repeat*/
+	background-position: 230px 80px;
+	color: white; /* background color */ 
+	height: 600px; /* height of div*/
 	overflow: hidden;
 	padding: 0;
 	background-color: #F2F2F2;
@@ -32,7 +27,7 @@ body{
 #primeraGeneracion .bg4{
 	background: url(../paralax/gen1_start.png) 50% 0  no-repeat ;
 	height: 1300px;
-	margin: 10em 0 0 12em;
+	margin: 20em 0 0 12em;
 	padding: 25px 50px;
 	width: 900px;
 	z-index: 200;
@@ -40,6 +35,7 @@ body{
 
 #segundaGeneracion{
 	background: url(../paralax/gen2_evo.png) 50% 0 no-repeat fixed;
+	background-position: 320px 100px;
 	color: white;
 	height: 600px;
 	margin: 0 auto;
@@ -51,7 +47,7 @@ body{
 #segundaGeneracion .bg{
 	background: url(../paralax/gen2_start.png) 50% 0  no-repeat ;
 	height: 1300px;
-	margin: 10em 0 0 12em;
+	margin: 20em 0 0 10em;
 	padding: 25px 50px;
 	width: 900px;
 	z-index: 200;
@@ -59,6 +55,7 @@ body{
 
 #terceraGeneracion{
 	background: url(../paralax/gen3_evo.png) 50% 0 no-repeat fixed;
+	background-position: 300px 80px;
 	color: white;
 	height: 600px;
 	margin: 0 auto;
@@ -69,7 +66,7 @@ body{
 #terceraGeneracion .bg2{
 	background: url(../paralax/gen3_start.png) 50% 0 no-repeat ;
 	height: 1300px;
-	margin: 10em 0 0 12em;
+	margin: 20em 0 0 12em;
 	padding: 25px 50px;
 	position: absolute;
 	width: 900px;
@@ -79,6 +76,7 @@ body{
 #cuartaGeneracion{
 	background: url(../paralax/gen4_evo.png) 50% 0 no-repeat fixed;
 	color: white;
+	background-position: 280px 80px;
 	height: 600px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -88,7 +86,7 @@ body{
 #cuartaGeneracion .bg3{
 	background: url(../paralax/gen4_start.png) 50% 0 no-repeat ;
 	height: 1300px;
-	margin: 10em 0 0 12em;
+	margin: 20em 0 0 10em;
 	padding: 25px 50px;
 	position: absolute;
 	width: 900px;
@@ -96,6 +94,7 @@ body{
 }
 #quintaGeneracion{
 	background: url(../paralax/gen5_evo.png) 50% 0 no-repeat fixed;
+	background-position: 230px 80px;
 	color: white;
 	height: 600px;
 	margin: 0 auto;
@@ -106,7 +105,7 @@ body{
 #quintaGeneracion .bg5{
 	background: url(../paralax/gen5_start.png) 50% 0 no-repeat ;
 	height: 1300px;
-	margin: 10em 0 0 12em;
+	margin: 20em 0 0 10em;
 	padding: 25px 50px;
 	position: absolute;
 	width: 900px;
@@ -116,6 +115,7 @@ body{
 
 #sextaGeneracion{
 	background: url(../paralax/gen6_evo.png) 50% 0 no-repeat fixed;
+	background-position: 230px 90px;
 	color: white;
 	height:800px;
 	margin: 0 auto;
@@ -126,7 +126,7 @@ body{
 #sextaGeneracion .bg6{
 	background: url(../paralax/gen6_start.png) 60% 0 no-repeat ;
 	height: 600px;
-	margin: 10em 0 0 12em;
+	margin: 20em 0 0 5em;
 	padding: 25px 50px;
 	position: absolute;
 	width: 900px;

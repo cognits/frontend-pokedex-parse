@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-inverse" >
+<nav class="navbar navbar-inverse navbar-fixed-top ">
 	<div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
@@ -12,11 +12,10 @@
 		<div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#/paginaInicio">Home</a></li>
+				<li><a>Home</a></li>
         		<li class="dropdown">
 							<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="images/pokemon_logo.png" class = "img-pokemon"></a>
 							<ul class="dropdown-menu" role="menu">
-								
 								<li><a href="#/FirstGeneration">First Generation</a></li>
 								<li class="divider"></li>
 								<li><a href="#/SecondGeneration">Second Generation</a></li>
@@ -31,16 +30,16 @@
 								<li class="divider"></li>
 								<li><a href="#/SixthGeneration">Sixth Generation</a></li>
 								<li class="divider"></li>
-								<li><a href="#/FullPokedex">Pokedex National</a></li>
+								<li><a>Lest Comments</a></li>
 								
 
 							</ul>
 						</li>
-						
+						<li><a href="#/" ng-click="logOut(user)">Log out</a></li>
         		<li><a></a></li>
 					<form class="navbar-form navbar-right" role="search">
 					<div class="form-group">
-						
+						<input  type="text" class="form-control" placeholder="Search Global"></input>
 					</div>
 
 					</form>
@@ -87,37 +86,54 @@
 
 <!--efecto parallax-->
 	<ul id="navParallax">
-		<li><a href="#primeraGeneracion" title="Next Section"><img src="paralax/poke1.png" width="30" alt="Link" /></a></li>
-	    <li><a href="#segundaGeneracion" title="Next Section"><img src="paralax/poke2.png" width="30" alt="Link" /></a></li>
-	    <li><a href="#terceraGeneracion" title="Next Section"><img src="paralax/poke3.png" width="30" alt="Link" /></a></li>
-	    <li><a href="#cuartaGeneracion" title="Next Section"><img src="paralax/poke4.png" width="30" alt="Link" /></a></li>
-	    <li><a href="#quintaGeneracion" title="Next Section"><img src="paralax/poke5.png" width="30" alt="Link" /></a></li>
-	    <li><a href="#sextaGeneracion" title="Next Section"><img src="paralax/poke6.png" width="30" alt="Link" /></a></li>
+	<br>
+	<br>
+	<br>
+	<br>
+		<li><a ><img src="paralax/poke1.png" width="30" /></a></li>
+	    <li><a ><img src="paralax/poke2.png" width="30"  /></a></li>
+	    <li><a ><img src="paralax/poke3.png" width="30"  /></a></li>
+	    <li><a ><img src="paralax/poke4.png" width="30"  /></a></li>
+	    <li><a ><img src="paralax/poke5.png" width="30"  /></a></li>
+	    <li><a ><img src="paralax/poke6.png" width="30"  /></a></li>
 	</ul>
 	
-	<div id="primeraGeneracion" class="img-responsive">
-		<div class="bg4 img-responsive">
-		</div>
+	<div id="primeraGeneracion" class="img-responsive"> <!--poscion div evoluting pokemon image-->
+		<div class="bg4 img-responsive"></div>
+
+	    
 	</div> <!--#primeraGeneracion-->
-
-	<div id="segundaGeneracion" class="img-responsive">
+	
+	<div id="segundaGeneracion" class="img-responsive"> <!--poscion div evoluting pokemon image-->
 		<div class="bg img-responsive"></div>
+
+
+	    
+	    
 	</div> <!--#segundaGeneracion-->
-
-	<div id="terceraGeneracion" class="img-responsive">
+	
+	<div id="terceraGeneracion" class="img-responsive"><!--poscion div evoluting pokemon image-->
 		<div class="bg2 img-responsive"></div>
+	    	
+	  
 	</div> <!--#terceraGeneracion-->
-
-	<div id="cuartaGeneracion" >
+	
+	<div id="cuartaGeneracion" ><!--poscion div evoluting pokemon image-->
 		<div class="bg3 img-responsive"></div>
+		    
+	    
 	</div> <!--#cuartaGeneracion-->
-	<div id="quintaGeneracion">
+		<div id="quintaGeneracion"><!--poscion div evoluting pokemon image-->
 		<div class="bg5 img-responsive"></div>
+		    
+	    
 	</div> <!--#quintaGeneracion-->
-	<div id="sextaGeneracion">
+		<div id="sextaGeneracion"><!---->
 		<div class="bg6 img-responsive"></div>
+		    
+	    
 	</div> <!--#cuartaGeneracion-->
-</div>
+</div> <!-- closing cotainer-->
 
 
 

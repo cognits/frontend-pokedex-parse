@@ -1,5 +1,3 @@
-
-//funciones jasmine
 function checkLength(clave){
 	if(clave.length>8){
 		return true;
@@ -59,24 +57,18 @@ var pokemonModule = angular.module('pokemonModule', ["ngRoute"]).config(function
 		.when('/SixthGeneration', {
 		templateUrl: 'SixthGeneration.html'
 	})
-		.when('/FullPokedex', {
-		templateUrl: 'pokedexFull.html'
-	})
 	.otherwise({
 		redirectTo: '/'
 	});
 });
-//controler pokemon list
+
 	pokemonModule.controller("pokeDex",function($scope,$http){
-		
-		//list the generationes pokemon
 $scope.listPokemonFirstGeneration=[];
 $scope.listPokemonSecondGeneration= [];
 $scope.listPokemonThirdGeneration= [];
 $scope.listPokemonFourthGeneration = [];
 $scope.listPokemonFifthGeneration = [];
 $scope.listPokemonSixthGeneration = [];
-$scope.listPokemonFullPokedex =  [];
     /*for para llamar todos los links de cada pokemon*/
 /**************************************************************/
 
@@ -158,22 +150,6 @@ $scope.listPokemonFullPokedex =  [];
         };
 
 /*******************************************************************************************/
-
-/******************************************full pokedex*************************************************/
-
-       for(x=1;x<=718;x++)
-        {
-        /*llamar link que retorna json de pokemon*/
-    
-        $http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data)
-            {
-            $scope.pokeInfo=data;
-            $scope.listPokemonFullPokedex.push($scope.pokeInfo);
-
-            });
-        };
-/*********************************************************************************************/
-
 	});
 /**************************************************************/
 
@@ -192,7 +168,7 @@ pokemonModule.filter("soloUrl", function(){
 	};
 });
 
-//user login
+
 pokemonModule.run(['$rootScope', "$location", function($scope, $location) {
 	$scope.scenario = 'Sign up';
 	$scope.currentUser = Parse.User.current();
@@ -249,7 +225,6 @@ pokemonModule.run(['$rootScope', "$location", function($scope, $location) {
 		$location.path("/inicio");
 	};
 }]);
-
+document.getElementById('poison').style.background='red';
 })();
-
 

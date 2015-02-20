@@ -6,9 +6,6 @@ body {
 .carousel-indicators li{
         background-color: black;
     }
-    select {background-color: black;
-border-radius: 10px;
-}
 
 .title-image {
 	margin-left: 25%;
@@ -28,8 +25,7 @@ border-radius: 10px;
 	color: red;
 }
 .fondo{
-	background: url(https://pokemontabletoprpg.files.wordpress.com/2011/12/04_legendary.jpg) no-repeat;
-    color:black;
+	background: url(../images/fondopokedex.png) no-repeat;
 
 
 }
@@ -51,11 +47,11 @@ margin-top: -20px;
 /**************************************/
 /************BLOQUES DE POKEMON********/
 .infoPoke1raGenration {
-    background-color: white;
-    width: auto;
-    display:inline-block;
-    margin-right: 20px;
-    margin-bottom: 20px;
+background-color: white;
+width: auto;
+display:inline-block;
+margin-right: 20px;
+margin-bottom: 20px;
 
 }
 .center
@@ -118,354 +114,354 @@ margin-top: -20px;
 /*********************************color types pokemon************************************************/
 
 .poison {
-        background: linear-gradient(180deg, #B97FC9 50%, #B97FC9 50%) repeat scroll 0% 0% #B97FC9;
+    background: linear-gradient(180deg, #B97FC9 50%, #B97FC9 50%) repeat scroll 0% 0% #B97FC9;
         background-color: #B97FC9;
         background-size: auto auto;
-        color: #FFF;
+    color: #FFF;
 
 
-        font-family: "Flexo-Medium",arial,sans-serif;
-        border-radius: 3px;
-        line-height: 18px;
-        max-width: 110px;
-        margin: 0px 1.5625% 0px 0px;
-        width: 38.4375%;
-        float: left;
-        text-transform: none;
-        font-size: 11px;
-        text-align: center;
+    font-family: "Flexo-Medium",arial,sans-serif;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 .grass {
-        background: linear-gradient(180deg, #9BCC50 50%, #9BCC50 50%) repeat scroll 0% 0% #9BCC50;
+    background: linear-gradient(180deg, #9BCC50 50%, #9BCC50 50%) repeat scroll 0% 0% #9BCC50;
         background-color: #9BCC50;
         background-size: auto auto;
-        color: #212121;
+    color: #212121;
 
 
-        font-family: "Flexo-Medium",arial,sans-serif;
-        border-radius: 3px;
-        line-height: 18px;
-        max-width: 110px;
-        margin: 0px 1.5625% 0px 0px;
-        width: 38.4375%;
-        float: left;
-        text-transform: none;
-        font-size: 11px;
-        text-align: center;
+    font-family: "Flexo-Medium",arial,sans-serif;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .fire {
     background: linear-gradient(180deg, #FD7D24 50%, #FD7D24 50%) repeat scroll 0% 0% #FD7D24;
-    background-color: #FD7D24;
+        background-color: #FD7D24;
 
-    background-size: auto auto;
+        background-size: auto auto;
     color: #FFF;
 
 
     font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .water {
     background: linear-gradient(180deg, #4592C4 50%, #4592C4 50%) repeat scroll 0% 0% #4592C4;
-    background-color: #4592C4;
+        background-color: #4592C4;
 
-    background-size: auto auto;
+        background-size: auto auto;
     color: #FFF;
 
 
     font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .flying {
     background: linear-gradient(180deg, #3DC7EF 50%, #BDB9B8 50%) repeat scroll 0% 0% #3DC7EF;
-    background-color: #3DC7EF;
+        background-color: #3DC7EF;
 
-    background-size: auto auto;
+        background-size: auto auto;
+    color: #212121;
+ 
+
+    font-family: "Flexo-Medium",arial,sans-serif;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
+}
+
+.bug {
+    background: linear-gradient(180deg, #729F3F 50%, #729F3F 50%) repeat scroll 0% 0% #729F3F;
+        background-color: #729F3F;
+
+        background-size: auto auto;
+    color: #FFF;
+
+
+
+    font-family: "Flexo-Medium",arial,sans-serif;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
+}
+
+.normal {
+    background: linear-gradient(180deg, #A4ACAF 50%, #A4ACAF 50%) repeat scroll 0% 0% #A4ACAF;
+        background-color: #A4ACAF;
+
+        background-size: auto auto;
     color: #212121;
 
 
     font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
-}
-
-.bug {
-        background: linear-gradient(180deg, #729F3F 50%, #729F3F 50%) repeat scroll 0% 0% #729F3F;
-        background-color: #729F3F;
-
-        background-size: auto auto;
-        color: #FFF;
-
-
-
-        font-family: "Flexo-Medium",arial,sans-serif;
-        border-radius: 3px;
-        line-height: 18px;
-        max-width: 110px;
-        margin: 0px 1.5625% 0px 0px;
-        width: 38.4375%;
-        float: left;
-        text-transform: none;
-        font-size: 11px;
-        text-align: center;
-}
-
-.normal {
-        background: linear-gradient(180deg, #A4ACAF 50%, #A4ACAF 50%) repeat scroll 0% 0% #A4ACAF;
-        background-color: #A4ACAF;
-
-        background-size: auto auto;
-        color: #212121;
-
-
-        font-family: "Flexo-Medium",arial,sans-serif;
-        border-radius: 3px;
-        line-height: 18px;
-        max-width: 110px;
-        margin: 0px 1.5625% 0px 0px;
-        width: 38.4375%;
-        float: left;
-        text-transform: none;
-        font-size: 11px;
-        text-align: center;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .electric {
     background: linear-gradient(180deg, #EED535 50%, #EED535 50%) repeat scroll 0% 0% #EED535;
-    background-color: #EED535;
+        background-color: #EED535;
 
-    background-size: auto auto;
+        background-size: auto auto;
     color: #212121;
 
 
     font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .ground {
     background: linear-gradient(180deg, #F7DE3F 50%, #AB9842 50%) repeat scroll 0% 0% #F7DE3F;
-    background-color: #F7DE3F;
+        background-color: #F7DE3F;
 
-    background-size: auto auto;
+        background-size: auto auto;
     color: #212121;
 
 
     font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .fairy {
     background: linear-gradient(180deg, #FDB9E9 50%, #FDB9E9 50%) repeat scroll 0% 0% #FDB9E9;
-    background-color: #FDB9E9;
+        background-color: #FDB9E9;
 
-    background-size: auto auto;
+        background-size: auto auto;
     color: #212121;
 
 
     font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .fighting {
     background: linear-gradient(180deg, #D56723 50%, #D56723 50%) repeat scroll 0% 0% #D56723;
-    background-color: #D56723;
+        background-color: #D56723;
 
-    background-size: auto auto;
+        background-size: auto auto;
     color: #FFF;
 
 
     font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .psychic {
-        background: linear-gradient(180deg, #F366B9 50%, #F366B9 50%) repeat scroll 0% 0% #F366B9;
+    background: linear-gradient(180deg, #F366B9 50%, #F366B9 50%) repeat scroll 0% 0% #F366B9;
         background-color: #F366B9;
 
         background-size: auto auto;
-        color: #FFF;
+    color: #FFF;
 
-        font-family: "Flexo-Medium",arial,sans-serif;
-        border-radius: 3px;
-        line-height: 18px;
-        max-width: 110px;
-        margin: 0px 1.5625% 0px 0px;
-        width: 38.4375%;
-        float: left;
-        text-transform: none;
-        font-size: 11px;
-        text-align: center;
+    font-family: "Flexo-Medium",arial,sans-serif;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .rock {
     background: linear-gradient(180deg, #A38C21 50%, #A38C21 50%) repeat scroll 0% 0% #A38C21;
-    background-color: #A38C21;
+        background-color: #A38C21;
 
-    background-size: auto auto;
+        background-size: auto auto;
     color: #FFF;
 
 
     font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .steel {
     background: linear-gradient(180deg, #9EB7B8 50%, #9EB7B8 50%) repeat scroll 0% 0% #9EB7B8;
-    background-color: #9EB7B8;
+        background-color: #9EB7B8;
 
-    background-size: auto auto;
+        background-size: auto auto;
     color: #212121;
 
     font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .ice {
     background: linear-gradient(180deg, #51C4E7 50%, #51C4E7 50%) repeat scroll 0% 0% #51C4E7;
-    background-color: #51C4E7;
+        background-color: #51C4E7;
 
-    background-size: auto auto;
+        background-size: auto auto;
     color: #212121;
 
 
     font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .ghost {
     background: linear-gradient(180deg, #7B62A3 50%, #7B62A3 50%) repeat scroll 0% 0% #7B62A3;
-    background-color: #7B62A3;
+        background-color: #7B62A3;
 
-    background-size: auto auto;
+        background-size: auto auto;
     color: #FFF;
 
     font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .dragon {
     background: linear-gradient(180deg, #53A4CF 50%, #F16E57 50%) repeat scroll 0% 0% #53A4CF;
-    background-color: #53A4CF;
+        background-color: #53A4CF;
 
-    background-size: auto auto;
+        background-size: auto auto;
     color: #FFF;
 
     font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
 
 .dark {
     background: linear-gradient(180deg, #707070 50%, #707070 50%) repeat scroll 0% 0% #707070;
-    background-color: #707070;
+        background-color: #707070;
 
-    background-size: auto auto;
+        background-size: auto auto;
     color: #FFF;
 
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
+        font-family: "Flexo-Medium",arial,sans-serif;
+border-radius: 3px;
+line-height: 18px;
+max-width: 110px;
+margin: 0px 1.5625% 0px 0px;
+width: 38.4375%;
+float: left;
+text-transform: none;
+font-size: 11px;
+text-align: center;
 }
