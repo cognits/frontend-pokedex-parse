@@ -1,3 +1,5 @@
+
+//funciones jasmine
 function checkLength(clave){
 	if(clave.length>8){
 		return true;
@@ -57,118 +59,107 @@ var pokemonModule = angular.module('pokemonModule', ["ngRoute"]).config(function
 		.when('/SixthGeneration', {
 		templateUrl: 'SixthGeneration.html'
 	})
+		.when('/FullPokedex', {
+		templateUrl: 'pokedexFull.html'
+	})
 	.otherwise({
 		redirectTo: '/'
 	});
 });
-
-	pokemonModule.controller("pokeDex",function($scope,$http){
-$scope.listPokemonFirstGeneration=[];
-$scope.listPokemonSecondGeneration= [];
-$scope.listPokemonThirdGeneration= [];
-$scope.listPokemonFourthGeneration = [];
-$scope.listPokemonFifthGeneration = [];
-$scope.listPokemonSixthGeneration = [];
-    /*for para llamar todos los links de cada pokemon*/
+//controler pokemon list
+pokemonModule.controller("pokeDex",function($scope,$http){
+		
+		//list the generationes pokemon
+	$scope.listPokemonFirstGeneration=[];
+	$scope.listPokemonSecondGeneration= [];
+	$scope.listPokemonThirdGeneration= [];
+	$scope.listPokemonFourthGeneration = [];
+	$scope.listPokemonFifthGeneration = [];
+	$scope.listPokemonSixthGeneration = [];
+	$scope.listPokemonFullPokedex =  [];
+	/*for para llamar todos los links de cada pokemon*/
 /**************************************************************/
-
-    for(x=1;x<=151;x++)
-        {
-        /*llamar link que retorna json de pokemon*/
-    
-        $http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data)
-            {
-            $scope.pokeInfo=data;
-            $scope.listPokemonFirstGeneration.push($scope.pokeInfo);
-
-            });
-        };
-/*---------------------------------------Second Generation------------------------------------------*/
-        for(x=152;x<=251;x++)
-        {
-        /*llamar link que retorna json de pokemon*/
-    
-        $http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data)
-            {
-            $scope.pokeInfo=data;
-            $scope.listPokemonSecondGeneration.push($scope.pokeInfo);
-
-            });
-        };
-
-        /***************Third Generation*****************/
-        for(x=252;x<=386;x++)
-        {
-        /*llamar link que retorna json de pokemon*/
-    
-        $http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data)
-            {
-            $scope.pokeInfo=data;
-            $scope.listPokemonThirdGeneration.push($scope.pokeInfo);
-
-            });
-        };
+//call the pokemon api, firt generation
+	for(x=1;x<=151;x++){
+		/*llamar link que retorna json de pokemon*/
+		$http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data){
+			$scope.pokeInfo=data;
+			$scope.listPokemonFirstGeneration.push($scope.pokeInfo);
+			});
+		};
+/*---------------------------------------call the pokemon api,Second Generation------------------------------------------*/
+	for(x=152;x<=251;x++){
+		/*llamar link que retorna json de pokemon*/
+		$http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data){
+			$scope.pokeInfo=data;
+			$scope.listPokemonSecondGeneration.push($scope.pokeInfo);
+			});
+		};
+		/*************** call the pokemon api,Third Generation*****************/
+	for(x=252;x<=386;x++){
+		/*llamar link que retorna json de pokemon*/
+		$http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data){
+			$scope.pokeInfo=data;
+			$scope.listPokemonThirdGeneration.push($scope.pokeInfo);
+			});
+		};
 /*****************************************************************************/
-/****************************fourth Generation****************************************/
-        for(x=387;x<=494;x++)
-        {
-        /*llamar link que retorna json de pokemon*/
-    
-        $http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data)
-            {
-            $scope.pokeInfo=data;
-            $scope.listPokemonFourthGeneration.push($scope.pokeInfo);
-
-            });
-        };
+/****************************call the pokemon api,fourth Generation****************************************/
+	for(x=387;x<=494;x++){
+		/*llamar link que retorna json de pokemon*/
+		$http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data){
+			$scope.pokeInfo=data;
+			$scope.listPokemonFourthGeneration.push($scope.pokeInfo);
+			});
+		};
 /***********************************************************/
-/****************************Fifth Generation*********************************/
-       for(x=495;x<=649;x++)
-        {
-        /*llamar link que retorna json de pokemon*/
-    
-        $http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data)
-            {
-            $scope.pokeInfo=data;
-            $scope.listPokemonFifthGeneration.push($scope.pokeInfo);
-
-            });
-        };
-
+/****************************call the pokemon api,Fifth Generation*********************************/
+	for(x=495;x<=649;x++){
+		/*llamar link que retorna json de pokemon*/
+		$http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data){
+			$scope.pokeInfo=data;
+			$scope.listPokemonFifthGeneration.push($scope.pokeInfo);
+			});
+		};
 /*******************************************************************************/
-/********************************sixth Generation***********************************************/
-       for(x=650;x<=718;x++)
-        {
-        /*llamar link que retorna json de pokemon*/
-    
-        $http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data)
-            {
-            $scope.pokeInfo=data;
-            $scope.listPokemonSixthGeneration.push($scope.pokeInfo);
-
-            });
-        };
-
+/********************************call the pokemon api,sixth Generation***********************************************/
+	for(x=650;x<=718;x++){
+		/*llamar link que retorna json de pokemon*/
+		$http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data){
+			$scope.pokeInfo=data;
+			$scope.listPokemonSixthGeneration.push($scope.pokeInfo);
+			});
+		};
 /*******************************************************************************************/
+
+/******************************************call the pokemon api,full pokedex*************************************************/
+
+	for(x=1;x<=718;x++){
+		/*llamar link que retorna json de pokemon*/
+		$http.get("http://pokeapi.co/api/v1/pokemon/"+x+"/").success(function(data){
+			$scope.pokeInfo=data;
+			$scope.listPokemonFullPokedex.push($scope.pokeInfo);
+			});
+		};
+/*********************************************************************************************/
 	});
 /**************************************************************/
 
 pokemonModule.filter("soloUrl", function(){
 	return function(item){
-		//var id = (JSON.stringify(item)).slice(16,-2);
-		if (String(item).length==1){
-			var pokemonImage = "http://assets2.pokemon.com/assets/cms2/img/pokedex/detail/00"+item+".png";
-		}else if(String(item).length==2){
-			var pokemonImage = "http://assets2.pokemon.com/assets/cms2/img/pokedex/detail/0"+item+".png";
-		}else{
-			var pokemonImage = "http://assets2.pokemon.com/assets/cms2/img/pokedex/detail/"+item+".png";
-		};
-		
-		return pokemonImage;
+	//var id = (JSON.stringify(item)).slice(16,-2);
+	if (String(item).length==1){
+		var pokemonImage = "http://assets2.pokemon.com/assets/cms2/img/pokedex/detail/00"+item+".png";
+	}else if(String(item).length==2){
+		var pokemonImage = "http://assets2.pokemon.com/assets/cms2/img/pokedex/detail/0"+item+".png";
+	}else{
+		var pokemonImage = "http://assets2.pokemon.com/assets/cms2/img/pokedex/detail/"+item+".png";
+	};
+	return pokemonImage;
 	};
 });
 
-
+//user login
 pokemonModule.run(['$rootScope', "$location", function($scope, $location) {
 	$scope.scenario = 'Sign up';
 	$scope.currentUser = Parse.User.current();
@@ -192,7 +183,6 @@ pokemonModule.run(['$rootScope', "$location", function($scope, $location) {
 			user.set("email", form.email);
 			user.set("username", form.username);
 			user.set("password", form.password);
-			
 			user.signUp(null, {
 				success: function(user) {
 					$scope.currentUser = user;
@@ -218,13 +208,12 @@ pokemonModule.run(['$rootScope', "$location", function($scope, $location) {
 			}
 		});
 	};
-	
 	$scope.logOut = function(form) {
 		Parse.User.logOut();
 		$scope.currentUser = null;
 		$location.path("/inicio");
 	};
 }]);
-document.getElementById('poison').style.background='red';
 })();
+
 
