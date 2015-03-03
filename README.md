@@ -20,4 +20,4 @@ sudo bower install
 These commands will install all the necessary libraries and frameworks including: AngularJS, Jasmine and
 Parse in a folder called **bower_components**.
 
-http://miltonsms.github.io/frontend-pokedex-parse.
+##http://miltonsms.github.io/frontend-pokedex-parse. 
