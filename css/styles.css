@@ -121,14 +121,7 @@ margin-top: -20px;
 #padre:hover #hijo{ visibility: visible;width: 130%;
  }
 /*********************************color types pokemon************************************************/
-
-.poison {
-        background: linear-gradient(180deg, #B97FC9 50%, #B97FC9 50%) repeat scroll 0% 0% #B97FC9;
-        background-color: #B97FC9;
-        background-size: auto auto;
-        color: #FFF;
-
-
+.border{
         font-family: "Flexo-Medium",arial,sans-serif;
         border-radius: 3px;
         line-height: 18px;
@@ -139,338 +132,268 @@ margin-top: -20px;
         text-transform: none;
         font-size: 11px;
         text-align: center;
+}
+.poison {
+        background: linear-gradient(180deg, #B97FC9 50%, #B97FC9 50%) repeat scroll 0% 0% #B97FC9;
+        background-color: #B97FC9;
+        background-size: auto auto;
+        color: #FFF;
 }
 .grass {
         background: linear-gradient(180deg, #9BCC50 50%, #9BCC50 50%) repeat scroll 0% 0% #9BCC50;
         background-color: #9BCC50;
         background-size: auto auto;
         color: #212121;
-
-
-        font-family: "Flexo-Medium",arial,sans-serif;
-        border-radius: 3px;
-        line-height: 18px;
-        max-width: 110px;
-        margin: 0px 1.5625% 0px 0px;
-        width: 38.4375%;
-        float: left;
-        text-transform: none;
-        font-size: 11px;
-        text-align: center;
 }
 
 .fire {
     background: linear-gradient(180deg, #FD7D24 50%, #FD7D24 50%) repeat scroll 0% 0% #FD7D24;
     background-color: #FD7D24;
-
     background-size: auto auto;
     color: #FFF;
 
 
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
+
 }
 
 .water {
     background: linear-gradient(180deg, #4592C4 50%, #4592C4 50%) repeat scroll 0% 0% #4592C4;
     background-color: #4592C4;
-
     background-size: auto auto;
     color: #FFF;
 
-
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
 }
 
 .flying {
     background: linear-gradient(180deg, #3DC7EF 50%, #BDB9B8 50%) repeat scroll 0% 0% #3DC7EF;
     background-color: #3DC7EF;
-
     background-size: auto auto;
     color: #212121;
-
-
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
 }
 
 .bug {
         background: linear-gradient(180deg, #729F3F 50%, #729F3F 50%) repeat scroll 0% 0% #729F3F;
         background-color: #729F3F;
-
         background-size: auto auto;
         color: #FFF;
-
-
-
-        font-family: "Flexo-Medium",arial,sans-serif;
-        border-radius: 3px;
-        line-height: 18px;
-        max-width: 110px;
-        margin: 0px 1.5625% 0px 0px;
-        width: 38.4375%;
-        float: left;
-        text-transform: none;
-        font-size: 11px;
-        text-align: center;
 }
 
 .normal {
         background: linear-gradient(180deg, #A4ACAF 50%, #A4ACAF 50%) repeat scroll 0% 0% #A4ACAF;
         background-color: #A4ACAF;
-
         background-size: auto auto;
         color: #212121;
-
-
-        font-family: "Flexo-Medium",arial,sans-serif;
-        border-radius: 3px;
-        line-height: 18px;
-        max-width: 110px;
-        margin: 0px 1.5625% 0px 0px;
-        width: 38.4375%;
-        float: left;
-        text-transform: none;
-        font-size: 11px;
-        text-align: center;
 }
 
 .electric {
     background: linear-gradient(180deg, #EED535 50%, #EED535 50%) repeat scroll 0% 0% #EED535;
     background-color: #EED535;
-
     background-size: auto auto;
     color: #212121;
-
-
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
 }
 
 .ground {
     background: linear-gradient(180deg, #F7DE3F 50%, #AB9842 50%) repeat scroll 0% 0% #F7DE3F;
     background-color: #F7DE3F;
-
     background-size: auto auto;
     color: #212121;
-
-
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
 }
 
 .fairy {
     background: linear-gradient(180deg, #FDB9E9 50%, #FDB9E9 50%) repeat scroll 0% 0% #FDB9E9;
     background-color: #FDB9E9;
-
     background-size: auto auto;
     color: #212121;
-
-
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
 }
 
 .fighting {
     background: linear-gradient(180deg, #D56723 50%, #D56723 50%) repeat scroll 0% 0% #D56723;
     background-color: #D56723;
-
     background-size: auto auto;
     color: #FFF;
-
-
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
 }
 
 .psychic {
         background: linear-gradient(180deg, #F366B9 50%, #F366B9 50%) repeat scroll 0% 0% #F366B9;
         background-color: #F366B9;
-
         background-size: auto auto;
         color: #FFF;
-
-        font-family: "Flexo-Medium",arial,sans-serif;
-        border-radius: 3px;
-        line-height: 18px;
-        max-width: 110px;
-        margin: 0px 1.5625% 0px 0px;
-        width: 38.4375%;
-        float: left;
-        text-transform: none;
-        font-size: 11px;
-        text-align: center;
 }
 
 .rock {
     background: linear-gradient(180deg, #A38C21 50%, #A38C21 50%) repeat scroll 0% 0% #A38C21;
     background-color: #A38C21;
-
     background-size: auto auto;
     color: #FFF;
-
-
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
 }
 
 .steel {
     background: linear-gradient(180deg, #9EB7B8 50%, #9EB7B8 50%) repeat scroll 0% 0% #9EB7B8;
     background-color: #9EB7B8;
-
     background-size: auto auto;
     color: #212121;
-
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
 }
 
 .ice {
     background: linear-gradient(180deg, #51C4E7 50%, #51C4E7 50%) repeat scroll 0% 0% #51C4E7;
     background-color: #51C4E7;
-
     background-size: auto auto;
     color: #212121;
-
-
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
 }
 
 .ghost {
     background: linear-gradient(180deg, #7B62A3 50%, #7B62A3 50%) repeat scroll 0% 0% #7B62A3;
     background-color: #7B62A3;
-
     background-size: auto auto;
     color: #FFF;
-
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
 }
 
 .dragon {
     background: linear-gradient(180deg, #53A4CF 50%, #F16E57 50%) repeat scroll 0% 0% #53A4CF;
     background-color: #53A4CF;
-
     background-size: auto auto;
     color: #FFF;
-
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
 }
 
 .dark {
     background: linear-gradient(180deg, #707070 50%, #707070 50%) repeat scroll 0% 0% #707070;
     background-color: #707070;
-
     background-size: auto auto;
     color: #FFF;
-
-    font-family: "Flexo-Medium",arial,sans-serif;
-    border-radius: 3px;
-    line-height: 18px;
-    max-width: 110px;
-    margin: 0px 1.5625% 0px 0px;
-    width: 38.4375%;
-    float: left;
-    text-transform: none;
-    font-size: 11px;
-    text-align: center;
 }
+
+
+@charset "utf-8";
+/* CSS Document */
+
+#navParallax{
+    list-style: none;
+    position: fixed;
+    right: 20px;
+}
+
+#navParallax li{
+    margin: 0 0 15px 0; 
+}
+
+
+
+#primeraGeneracion{
+    background: url(../paralax/gen1_evo.png) 50% 0 no-repeat fixed; /* image position and do not repeat*/
+    background-position: 230px 80px;
+    color: white; /* background color */ 
+    height: 600px; /* height of div*/
+    overflow: hidden;
+    padding: 0;
+    background-color: #F2F2F2;
+
+}
+#primeraGeneracion .bg4{
+    background: url(../paralax/gen1_start.png) 50% 0  no-repeat ;
+    height: 1300px;
+    margin: 20em 0 0 12em;
+    padding: 25px 50px;
+    width: 900px;
+    z-index: 200;
+}
+
+#segundaGeneracion{
+    background: url(../paralax/gen2_evo.png) 50% 0 no-repeat fixed;
+    background-position: 320px 100px;
+    color: white;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    background-color: #FFF;
+}
+
+#segundaGeneracion .bg{
+    background: url(../paralax/gen2_start.png) 50% 0  no-repeat ;
+    height: 1300px;
+    margin: 20em 0 0 10em;
+    padding: 25px 50px;
+    width: 900px;
+    z-index: 200;
+}
+
+#terceraGeneracion{
+    background: url(../paralax/gen3_evo.png) 50% 0 no-repeat fixed;
+    background-position: 300px 80px;
+    color: white;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+#terceraGeneracion .bg2{
+    background: url(../paralax/gen3_start.png) 50% 0 no-repeat ;
+    height: 1300px;
+    margin: 20em 0 0 12em;
+    padding: 25px 50px;
+    position: absolute;
+    width: 900px;
+    z-index: 200;
+}
+
+#cuartaGeneracion{
+    background: url(../paralax/gen4_evo.png) 50% 0 no-repeat fixed;
+    color: white;
+    background-position: 280px 80px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    background-color: #FFF;
+}
+#cuartaGeneracion .bg3{
+    background: url(../paralax/gen4_start.png) 50% 0 no-repeat ;
+    height: 1300px;
+    margin: 20em 0 0 10em;
+    padding: 25px 50px;
+    position: absolute;
+    width: 900px;
+    z-index: 200;
+}
+#quintaGeneracion{
+    background: url(../paralax/gen5_evo.png) 50% 0 no-repeat fixed;
+    background-position: 230px 80px;
+    color: white;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    background-color: #F2F2F2;
+}
+#quintaGeneracion .bg5{
+    background: url(../paralax/gen5_start.png) 50% 0 no-repeat ;
+    height: 1300px;
+    margin: 20em 0 0 10em;
+    padding: 25px 50px;
+    position: absolute;
+    width: 900px;
+    z-index: 200;
+
+}
+
+#sextaGeneracion{
+    background: url(../paralax/gen6_evo.png) 50% 0 no-repeat fixed;
+    background-position: 230px 90px;
+    color: white;
+    height:800px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    background-color: #FFF;
+}
+#sextaGeneracion .bg6{
+    background: url(../paralax/gen6_start.png) 60% 0 no-repeat ;
+    height: 600px;
+    margin: 20em 0 0 5em;
+    padding: 25px 50px;
+    position: absolute;
+    width: 900px;
+    z-index: 200;
+}
+

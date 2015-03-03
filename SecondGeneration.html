@@ -118,14 +118,14 @@
 				
 				<div class ="col-md-10 ">
 					<div class="center ">
-					<div  class = "infoPoke1raGenration Pokemon growUp" ng-repeat="pokemon in listPokemonSecondGeneration | orderBy: 'national_id' | filter:buscar">
+					<div  class = "infoPoke1raGenration Pokemon growUp" id="padre" ng-repeat="pokemon in listPokemonSecondGeneration | orderBy: 'national_id' | filter:buscar">
 						<div class="center">
 						<div class="namePoke"> N.{{pokemon.national_id}} {{pokemon.name}}</div>
 							<div class="row-fluid ">
 								<div class="col-md-12">
 									<img class = "imgPoke img-responsive" ng-src="{{pokemon.national_id|soloUrl}}">
-									<span class= "{{pokemon.types[0].name}}">{{pokemon.types[0].name}}</span>  
-									<span class= "{{pokemon.types[1].name}}">{{pokemon.types[1].name}}</span> 
+									<div id="hijo"> <span class= "{{pokemon.types[0].name}} border">{{pokemon.types[0].name}}</span>  
+									<span class= "{{pokemon.types[1].name}} border">{{pokemon.types[1].name}}</span> </div>
 								</div>
 							</div>
 							
