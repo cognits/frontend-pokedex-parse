@@ -26,3 +26,22 @@ describe("Pokedex Page testing", function(){
     });
   });
 });
+
+
+
+describe('pokeDex', function(){
+  var scope, ctrl;
+
+  beforeEach(module('pokemonModule'));
+
+  beforeEach(inject(function($controller) {
+    scope = {};
+    ctrl = $controller('pokeDex', {$scope:scope});
+  }));
+
+  it('not empty', function() {
+    expect(scope.listPokemonFirstGeneration).toBeDefined();
+    expect(scope.listPokemonFirstGeneration.length).toBe(0);
+  });
+
+});
