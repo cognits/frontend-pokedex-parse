@@ -1,0 +1,142 @@
+
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		<div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#/paginaInicio">Home</a></li> <!-- link page home-->
+        		<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img src="images/pokemon_logo.png" class = "img-pokemon"></a>
+							<ul class="dropdown-menu" role="menu">
+								<!-- link pokemon generation-->
+								<li><a href="#/FirstGeneration">First Generation</a></li>
+								<li class="divider"></li>
+								<li><a href="#/ThirdGeneration">Third Generation</a></li>
+								<li class="divider"></li>
+								<li><a  href="#/FourthGeneration">Fourth Generation</a></li>
+								<li class="divider"></li>
+								<li><a  href="#/FifthGeneration">Fifth Generation</a></li>
+								<li class="divider"></li>
+								<li><a href="#/SixthGeneration">Sixth Generation</a></li>
+								<li class="divider"></li>
+								<li><a href="#/FullPokedex">Pokedex National</a></li>
+								
+
+							</ul>
+						</li>
+						<li><a href="#/" ng-click="logOut(user)">Log out</a></li>  <!-- boton log out -->
+        		<li><a></a></li>
+					<form class="navbar-form navbar-right" role="search">
+					<div class="form-group">
+						<input  type="text" class="form-control" placeholder="Search Global" ng-model="buscar"></input> <!--input search-->
+					</div>
+
+					</form>
+			</ul>
+
+		</div><!-- /.navbar-collapse -->
+		 </div>
+	</div><!-- /.container-fluid -->
+	
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+						
+        		<li><a>Welcome {{currentUser.get('username')}}</a></li>
+					<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">User <span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								
+								
+								<li class="divider"></li>
+								<li><a>less Views</a></li>
+								<li class="divider"></li>
+								<li><a>alphabetical a-z</a></li>
+								<li class="divider"></li>
+								<li><a>alphabetical z-a</a></li>
+								<li class="divider"></li>
+								<li><a>Most Comments</a></li>
+								<li class="divider"></li>
+								<li><a href="#/" ng-click="logOut(user)">Log out</a></li>
+
+
+							</ul>
+						</li>
+			</ul>
+
+		</div><!-- /.navbar-collapse -->
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+
+</nav>
+<div class ="row title" >
+	<div class= "col-md-12">
+		<div class= "col-md-4">
+			<div class ="col-md-1"></div>
+			 <div class ="col-md-3"> <br><img src="sketch pokemon/dex_elements/dex_element.png">
+		 </div>
+		 <div class="col-md-3">
+		 	
+		 </div>
+		</div>
+		<div class="col-md-6">
+		<div class = "col-md-1"></div>
+		<div class = "col-md-5"> <h2>Second Generation</h2></div>
+			
+		</div>
+	</div>
+</div>
+
+	
+	<div class = "row">
+		<div class = "col-md-12 pri2">
+			<div class = "col-md-1"></div>
+			<div class = "col-md-5">
+			<div>
+				<img class = "pri" src="sketch pokemon/landing_pokemon/pekedex_element.png">
+
+			</div>
+			</div>
+			<div class = "col-md-2"></div>
+		</div>
+	</div>
+
+<!-- div all pokemon second generation-->
+<div class = "infoGenration1 " ng-controller="pokeDex">
+	<br><br>
+		<div class = "container">
+			<div class ="row-fluid ">
+			<div class = "col-md-1"></div>
+				
+				<div class ="col-md-10 ">
+					<div class="center ">
+					<div  class = "infoPoke1raGenration Pokemon growUp" id="padre" ng-repeat="pokemon in listPokemonSecondGeneration | orderBy: 'national_id' | filter:buscar">
+						<div class="center">
+						<div class="namePoke"> N.{{pokemon.national_id}} {{pokemon.name}}</div>
+							<div class="row-fluid ">
+								<div class="col-md-12">
+									<img class = "imgPoke img-responsive" ng-src="{{pokemon.national_id|soloUrl}}">
+									<div id="hijo"> <span class= "{{pokemon.types[0].name}} border">{{pokemon.types[0].name}}</span>  
+									<span class= "{{pokemon.types[1].name}} border">{{pokemon.types[1].name}}</span> </div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+					</div>
+				</div>
+			<div class = "col-md-1"></div>
+			</div>
+		</div>
+</div>
+
+
+
