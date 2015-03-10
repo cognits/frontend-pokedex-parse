@@ -1,0 +1,250 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300);
+* {margin:0;padding:0; border: 0 none; position: relative;}
+*, *:before, *:after {box-sizing: inherit;}
+
+/******************************************************************************************************/
+html{
+  box-sizing: border-box;
+}
+/******************************************************************************************************/
+/******************************TITULO PRINCIPAL DE LA PAGINA*******************************************/
+.principal{
+	height: 100px;
+	background: rgb(211, 31, 31);
+	background-image: url(../images/pokemon.png);
+	background-size: 16%;
+	background-repeat: no-repeat;
+	background-position: center
+}
+
+/******************************************************************************************************/
+/*******************************IMAGEN DE FONDO *******************************************************/
+body
+{
+	background:url('http://assets9.pokemon.com/static2/_ui/img/chrome/body_bg.png');
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+}
+/******************************************************************************************************/
+/************************************COLOR BOTONES TIPOS POKEMON****************************************/
+.general
+{
+	border-radius:4px; margin-bottom:5px;
+}
+.poison 
+{
+	background-color: #B87BC8;
+}
+.grass
+{
+	background-color: #9ED24C;
+}
+.water 
+{
+	background-color: #4794C2; 
+}
+.fire 
+{
+	background-color: #FE7B23; 
+}
+.bug 
+{
+	background-color: #709C43;
+}
+.normal
+{
+	background-color: #A2AAAD;
+}
+.electric
+{
+	background-color: #EBD42E;
+}
+.psychic
+{
+	background-color: #F26DAE;
+}
+.ice
+{
+	background-color: #4EC4F4;
+}
+.fairy
+{
+	background-color: #FAC4E8; 
+}
+.fighting
+{
+	background-color: #BA5F28;
+}
+.steel
+{
+ background-color: #9EB7B8; 
+}
+.dark
+{
+	background-color: #575252;
+}
+.ghost
+{
+	background-color: #7E61A9;
+}
+
+/******************************************************************************************************/
+/*****************************BOTONES DOS PITO DE COLOR POKEMON****************************************/
+.flying
+{
+	background: linear-gradient(180deg, #3DC7EF 50%, #BDB9B8 50%) 
+	repeat scroll 0% 0% #3DC7EF;
+	background-color: #3DC7EF;
+	background-size: auto auto;
+	color: #212121;
+}
+.ground
+{
+	background: linear-gradient(180deg, #F7DE3F 50%, #AB9842 50%) 
+	repeat scroll 0% 0% #F7DE3F;
+	background-color: #F7DE3F;
+	background-size: auto auto;
+	color: #212121;
+}
+.rock
+{
+	background: linear-gradient(180deg, #A38C21 50%, #A38C21 50%) 
+	repeat scroll 0% 0% #A38C21;
+	background-color: #A38C21;
+	background-size: auto auto;
+	color: #FFF;
+}
+.dragon
+{
+	background: linear-gradient(180deg, #53A4CF 50%, #F16E57 50%) 
+	repeat scroll 0% 0% #53A4CF;
+	background-color: #53A4CF;
+	background-size: auto auto;
+	color: #FFF;
+}
+/**********************************************BOTONES FILTROS****************************************/
+.botonesFiltros
+{
+	background: silver;
+	color:black;
+	margin-top:10px;
+	height: 25px;
+	width: 150px;
+	text-shadow:0 0.1em 0 black;
+}
+.centrar
+{
+	text-align: center;
+}
+.colorIcono1
+{
+	text-shadow:0 0 0.3em purple;
+}
+
+.colorIcono2
+{
+	text-shadow:0 0 0.3em green;
+}
+
+.colorIcono3
+{
+	text-shadow:0 0 0.3em yellow;
+}
+
+.colorIcono4
+{
+	text-shadow:0 0 0.3em red;
+}
+
+.colorIcono5
+{
+	text-shadow:0 0 0.3em blue;
+}
+/******************************************************************************************************/
+/****************************************DISEÑO NOMBRE Y TIPO POKEMON**********************************/
+.nombrePokemon
+{
+	background-color: silver;
+	margin-bottom: 5px;
+	color:black;
+}
+
+/******************************************************************************************************/
+/**************************************CARRUSEL********************************************************/
+
+
+.main {
+	width: 500%;
+	max-width: 100px;
+	margin: 20px auto;
+	margin-right: 835px;
+}
+
+.slides {
+	width: 700%;
+}
+
+
+
+.slidesjs-pagination {
+	background-color: black;
+	list-style: none;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li {
+	float: left;
+}
+
+.slidesjs-pagination li a {
+	display: block;
+	padding: 10px 20px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+.slidesjs-navigation{
+	background-color: #000;
+	color: #fff;
+	text-decoration: none;
+	
+	padding: 13px 20px;
+	float: right;
+}
+/*********************************COLOR NUMERO POKEMON Y LETRA TIPO************************************/
+.partes
+{
+	color: white;
+
+	display: inline-block;
+	text-align: center;
+	border: double black;
+	cursor: pointer;
+	margin-right: 14px;
+	margin-bottom: 20px;
+/********************************EFECTO DE RESALTADO EN IMAGEN POKEMON**********************************/
+	-webkit-transition:-webkit-transform 0.5s ease-out;
+	-moz-transition:-moz-transform 0.5s ease-out;
+	-o-transition:-o-transform 0.5s ease-out;
+	-ms-transition:-ms-transform 0.5s ease-out;
+	transition:transform 0.5s ease-out;
+}
+/******************************************************************************************************/
+/***********************************SOMBRA DE EFECTO RESALTADO*******************************************/
+.partes:hover
+{
+	background: url(../images/pokebolagris.png);
+		box-shadow: 0 0 40px silver;
+
+	z-index: 1;
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1)
+}
+
