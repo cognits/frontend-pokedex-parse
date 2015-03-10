@@ -1,7 +1,6 @@
-# frontend-pokedex-parse
-
-We will use [Parse API](https://parse.com/docs/js_guide) to enable users to sign up and log in to their sites.
-The applications ID and Key that you must use are located in [parse.txt](parse.txt).
+# Learning AngularJS with Github
+In this project you must use Github's public timeline to build a table of all events.
+The data is in JSON format in the data folder, with the name [2015-01-01-15.json](data/2015-01-01-15.json).
 
 
 ## Prepare project
@@ -17,5 +16,19 @@ sudo npm install
 sudo bower install
 ```
 
-These commands will install all the necessary libraries and frameworks including: AngularJS, Jasmine and
-Parse in a folder called **bower_components**.
+
+## User Stories
+- As a user I must be able to view all the Github events in an organized fashion (use table)
+
+- As a user I must be able to filter the information in the table by event type,
+
+
+## i/o
+
+
+
+## Reflection Q's
+1. What is the general organization of AngularJS projects?
+2. What do you think AngularJS is doing in the background?
+ 
+visit my WebPage  http://jatamayo.github.io/frontend-pokedex-parse.
